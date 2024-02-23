@@ -3,7 +3,7 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-primary-black overflow-hidden">
       <Navbar/>
       <Hero/>
       <About/>
