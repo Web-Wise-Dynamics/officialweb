@@ -49,7 +49,7 @@ const Hero = () => (
                     <img 
                         src="/hero-circle.png" 
                         alt="circle" 
-                        className='sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain opacity-50 hove:opacity-60 animate-spin-slow'
+                        className='sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain opacity-45 hover:opacity-70 animate-spin-slow'
                     />
                 </Link>
             </motion.div>
