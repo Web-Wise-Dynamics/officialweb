@@ -11,31 +11,36 @@
 }
 
 .bg-redi {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(20, 15, 49);
   color: teal;
 }
 
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(17, 76%, 51%) 0%,
-    hsl(19, 80%, 60%) 26%,
-    hsl(28, 79%, 74%) 39%,
-    hsl(22, 73%, 78%) 50%,
-    hsl(34, 29%, 33%) 61%,
-    hsl(34, 33%, 23%) 74%,
-    hsl(60, 1%, 30%) 100%
+    #B44646 0%,
+    #B74495 26%,
+    #F4D0BB 39%,
+    #f8ceb6 50%,
+    #451C4F 61%,
+    #281F5A 74%,
+    #1D1E47 100%
   );
   filter: blur(125px);
 }
 
 .hero-gradient {
   background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    1200deg,
+    #1D1E47 0%,
+    #281F5A 26%,
+    #B44646 39%,
+    #f3b591 50%,
+    #B44646 61%,
+    #281F5A 74%,
+    #1D1E47 100%
   );
+  filter: blur(35px);
 }
 
 .gradient-02 {

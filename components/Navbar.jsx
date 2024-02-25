@@ -12,11 +12,11 @@ const Navbar = () => (
         className={`${styles.xPaddings} py-8 relative`}
     >
         <div className='absolute w-[50%] inset-0 gradient-01'></div>
-        <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+        <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8 items-center`}>
             <img 
-                src="/search.svg" 
+                src="/w2d-logo.png" 
                 alt="search" 
-                className='w-[24px] h-[24px] object-contain'
+                className='w-[50px] h-[50px] object-contain'
             />
             <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>Web Wise Dynamics</h2>
             <img 
