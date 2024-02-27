@@ -39,7 +39,7 @@ const Hero = () => (
             >
                 <div className='absolute w-full h-full hero-gradient rounded-t-[140px] z-[0] -top-[30px] opacity-40'/>
                 <img 
-                    src="/a.jpg" 
+                    src="/hero-image.jpeg" 
                     alt="cover" 
                     className='w-full sm:h-[500px] h-[350px] object-cover rounded-t-[140px] z-10 relative opacity-40 top-7 blur-[2px]'
                 />
