@@ -25,3 +25,8 @@ export const availableServices = [
         title: 'Digital Marketing',
     },
 ];
+export const startingFeatures = [
+    'We have a team of highly qualified developers',
+    'We are committed to developing customized solutions that align with your goals',
+    'We develop scalable software solutions that can grow and adapt as your business evolves and expands',
+];  
