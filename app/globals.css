@@ -93,6 +93,13 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
+.text-gradient{
+  background: linear-gradient(90deg,#516DD8, #B578C9,#AF2178);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
 
 .feedback-gradient {
   position: absolute;

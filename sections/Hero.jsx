@@ -24,7 +24,7 @@ const Hero = () => (
                     </motion.div>
                     <motion.div
                         variants={textVariant(.9)}
-                        className='flex flex-row justify-center item-center text-[#B74495]'
+                        className='flex flex-row justify-center item-center text-gradient'
                     >
                         Dynamics
                     </motion.div>
