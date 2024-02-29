@@ -1,12 +1,12 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { StartSteps, TitleText, TypingText } from '@/components';
+import { Benefit, TitleText, TypingText } from '@/components';
 import {fadeIn, planetVariants, staggerContainer} from '@/utils/motion'; 
-import { startingFeatures } from '@/constants';
+import { benefitText } from '@/constants';
 import styles from '../styles/index';
 
-const GetStarted = () => (
+const WhyChooseUs = () => (
     <section className={`${styles.paddings} relative z-10`}>
         <motion.div
             variants={staggerContainer}
@@ -33,8 +33,8 @@ const GetStarted = () => (
                 <TitleText title='Reasons to work with us'/>
                 <div className='mt-[31px] flex flex-col max-w-[500px] gap-[24px]'>
                     {
-                        startingFeatures.map((feature, index) => (
-                            <StartSteps 
+                        benefitText.map((feature, index) => (
+                            <Benefit 
                                 key={feature}
                                 number={index + 1}
                                 text={feature}
@@ -47,4 +47,4 @@ const GetStarted = () => (
     </section>
 );
 
-export default GetStarted;
+export default WhyChooseUs;

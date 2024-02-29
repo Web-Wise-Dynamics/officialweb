@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "@/components";
-import { About, Services, Feedback, Benefits, Hero, Insights, WhatsNew, World } from "@/sections";
+import { About, Services, Feedback, WhyChooseUs, Hero, Insights, HowWeWork, World } from "@/sections";
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
         <Services/>
       </div>
       <div className="relative">
-        <Benefits/>
+        <WhyChooseUs/>
         <div className="gradient-04 z-0"/>
-        <WhatsNew/>
+        <HowWeWork/>
       </div>
         <World/>
       <div className="relative">
