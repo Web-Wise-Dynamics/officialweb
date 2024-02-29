@@ -1,7 +1,8 @@
 'use client';
+
 import styles from "@/styles";
 
-const StartSteps = ({number, text}) => (
+const Benefit = ({number, text}) => (
     <div className={`${styles.flexCenter} flex-row`}>
         <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]/70`}>
             <p className="font-bold text-[20px] text-white">
@@ -14,4 +15,4 @@ const StartSteps = ({number, text}) => (
     </div>
 );
 
-export default StartSteps;
+export default Benefit;
