@@ -4,7 +4,7 @@ import Services from './Services';
 import WhyChooseUs from './WhyChooseUs';
 import HowWeWork from './HowWeWork';
 import World from './World';
-import Insights from './Insights';
+import OurBestProjects from './OurBestProjects';
 import Feedback from './Feedback';
 
 export {
@@ -14,6 +14,6 @@ export {
     WhyChooseUs,
     HowWeWork,
     World,
-    Insights,
+    OurBestProjects,
     Feedback,
 };
