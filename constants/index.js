@@ -54,20 +54,31 @@ export const stepsText = [
 export const projects = [
     {
         imgUrl: '/project-test.jpeg',
-        title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+        title: 'Example 1 for project section',
         subtitle:
-            'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+            'This is an example of projects, comming soon you look real project here.',
     },
     {
         imgUrl: '/project-test.jpeg',
-        title: '7 tips to easily master the madness of the Metaverse',
+        title: 'Example 2 for project section',
         subtitle:
-            'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+            'This is an example of projects, comming soon you look real project here.',
     },
     {
         imgUrl: '/project-test.jpeg',
-        title: 'With one platform you can explore the whole world virtually',
+        title: 'Example 3 for project section',
         subtitle:
-            'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+            'This is an example of projects, comming soon you look real project here.',
+    },
+];
+
+export const socials = [
+    {
+        name: 'linkedin',
+        url: '/linkedin.svg',
+    },
+    {
+        name: 'instagram',
+        url: '/instagram.svg',
     },
 ];

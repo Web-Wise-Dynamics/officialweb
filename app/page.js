@@ -16,7 +16,7 @@ export default function Home() {
         <div className="gradient-04 z-0"/>
         <HowWeWork/>
       </div>
-        <World/>
+        {/* <World/> */}
       <div className="relative">
         <OurBestProjects/>
         <div className="gradient-04 z-0"/>
