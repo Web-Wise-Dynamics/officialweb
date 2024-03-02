@@ -3,6 +3,7 @@ import {motion} from 'framer-motion';
 import {footerVariants} from '@/utils/motion';
 import {socials} from '@/constants'
 import styles from '../styles/index';
+import Image from 'next/image'
 const Footer = () => (
     <motion.footer
         variants={footerVariants}
@@ -17,10 +18,12 @@ const Footer = () => (
                     Be next case of success
                 </h4>
                 <button type='button' className='flex items-center h-fit py-4 px-6 bg-[#25618b]/50 rounded-[32px] gap-[12px]'>
-                    <img 
-                        src="/w2d-bot.png" 
+                    <Image 
+                        src="/w2d-bot.svg" 
                         alt="w2d bot"
-                        className='w-[24px] h-[24px] object-contain' 
+                        width={28}
+                        height={28}
+                        className='object-contain' 
                     />
                     <span className='text-white'>Request budget</span>
                 </button>
@@ -33,15 +36,16 @@ const Footer = () => (
                     <div className='flex gap-4'>
                         {
                             socials.map((social) => (
-                                <img 
+                                <Image 
                                     key={social.name}
                                     src={social.url}
                                     alt={social.name}
-                                    className='w-[24px] h-[24px] object-contain cursor-pointer'
+                                    width={24}
+                                    height={24}
+                                    className='object-contain cursor-pointer'
                                 />
                             ))
                         }
-
                     </div>
                 </div>
             </div>

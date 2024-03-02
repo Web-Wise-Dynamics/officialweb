@@ -2,15 +2,18 @@
 
 import { motion } from 'framer-motion';
 import {fadeIn} from '@/utils/motion'; 
+import Image from 'next/image'
 
 const ProjectCard = ({imgUrl, title, subtitle, index}) => (
     <motion.div
         variants={fadeIn('up','spring', index * 0.2, 1)}
         className='flex md:flex-row flex-col gap-4'
     >
-        <img 
+        <Image 
             src={imgUrl} 
             alt={title}
+            width={1000}
+            height={100}
             className='md:w-[270px] w-full h-[250px] rounded-[32px] object-cover'
         />
         <div className='w-full flex justify-between items-center'>
@@ -23,9 +26,11 @@ const ProjectCard = ({imgUrl, title, subtitle, index}) => (
                 </p>
             </div>
             <div className='lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white cursor-pointer'>
-                <img 
+                <Image 
                     src="arrow.svg" 
                     alt="arrow"
+                    width={100}
+                    height={100}
                     className='w-[30%] h-[30%] object-contain' 
                 />
             </div>

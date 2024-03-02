@@ -5,6 +5,7 @@ import { DevStep, TitleText, TypingText } from '@/components';
 import {fadeIn, planetVariants, staggerContainer} from '@/utils/motion'; 
 import { stepsText } from '@/constants';
 import styles from '../styles/index';
+import Image from 'next/image'
 
 const HowWeWork = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -36,9 +37,11 @@ const HowWeWork = () => (
                 variants={planetVariants('right')}
                 className={` flex-1 ${styles.flexCenter}`}
             >
-                <img 
-                    src="/w2d-steps.png" 
+                <Image 
+                    src="/w2d-steps.svg" 
                     alt="w2d-steps" 
+                    width={1000}
+                    height={100}
                     className='w-[80%] h-[80%] object-contain'
                 />
             </motion.div>

@@ -5,6 +5,7 @@ import { Benefit, TitleText, TypingText } from '@/components';
 import {fadeIn, planetVariants, staggerContainer} from '@/utils/motion'; 
 import { benefitText } from '@/constants';
 import styles from '../styles/index';
+import Image from 'next/image'
 
 const WhyChooseUs = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -19,9 +20,11 @@ const WhyChooseUs = () => (
                 variants={planetVariants('left')}
                 className={`flex-1 ${styles.flexCenter}`}
             >
-                <img 
-                    src="/w2d-benefits.png" 
+                <Image 
+                    src="/w2d-benefits.svg" 
                     alt="w2d-benefits" 
+                    width={1000}
+                    height={100}
                     className='w-[70%] h-[70%] object-contain'
                 />
             </motion.div>
