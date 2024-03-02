@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import styles from '../styles/index';
 import { fadeIn } from '@/utils/motion';
+import Image from 'next/image'
 
 const ServiceCard = ({id, imgUrl, title, index, active, handleClick}) => (
     <motion.div
@@ -10,9 +11,11 @@ const ServiceCard = ({id, imgUrl, title, index, active, handleClick}) => (
         className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]':'lg:flex-[0.5] flex-[2]'} flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.5s] ease-out-flex cursor-pointer`}
         onClick={() => handleClick(id)}
     >
-        <img
+        <Image
             src={imgUrl}
             alt={title}
+            width={1000}
+            height={100}
             className='absolute w-full h-full object-cover rounded-[24px]'
         />
         {
@@ -26,9 +29,11 @@ const ServiceCard = ({id, imgUrl, title, index, active, handleClick}) => (
             (
                 <div className='absolute bottom-0 p-8 justify-start w-full flex-col bg-black/60 rounded-b-[24px]' >
                     <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[20px] glassmorphism mb-[12px]`}>
-                        <img 
-                            src="/w2d-bot.png" 
+                        <Image 
+                            src="/w2d-bot.svg" 
                             alt="bot"
+                            width={1000}
+                            height={100}
                             className='w-[60%] h-[80%] object-contain' 
                         />
                     </div>

@@ -1,27 +1,27 @@
 export const availableServices = [
     {
         id: 'service-1',
-        imgUrl: '/mobile-dev.jpg',
+        imgUrl: '/mobile-dev.svg',
         title: 'Mobile Development',
     },
     {
         id: 'service-2',
-        imgUrl: '/web-dev.jpg',
+        imgUrl: '/web-dev.svg',
         title: 'Web Development',
     },
     {
         id: 'service-3',
-        imgUrl: '/desk-dev.jpg',
+        imgUrl: '/desk-dev.svg',
         title: 'Desktop Development',
     },
     {
         id: 'service-4',
-        imgUrl: '/saas.jpg',
+        imgUrl: '/saas.svg',
         title: 'Software As A Service',
     },
     {
         id: 'service-5',
-        imgUrl: '/digital-marketing.jpg',
+        imgUrl: '/digital-marketing.svg',
         title: 'Digital Marketing',
     },
 ];
@@ -33,19 +33,19 @@ export const benefitText = [
 
 export const stepsText = [
     {
-        imgUrl: '/w2d-bot.png',
+        imgUrl: '/w2d-bot.svg',
         title: 'Analysis',
         subtitle:
             'We carry out a detailed study of the problems to be solved and the functionalities required to establish the scope of the project and establish the success criteria.',
     },
     {
-        imgUrl: '/w2d-bot.png',
+        imgUrl: '/w2d-bot.svg',
         title: 'Design',
         subtitle:
             'We define data structures, user interfaces and system components. The design also addresses performance, security, maintainability, and scalability considerations.',
     },
     {
-        imgUrl: '/w2d-bot.png',
+        imgUrl: '/w2d-bot.svg',
         title: 'Development',
         subtitle:
             'We implement previously defined functionalities and test the software to detect and correct errors ensuring that the software is delivered on time and meets quality standards.',
@@ -53,19 +53,19 @@ export const stepsText = [
 ];
 export const projects = [
     {
-        imgUrl: '/project-test.jpeg',
+        imgUrl: '/project-test.svg',
         title: 'Example 1 for project section',
         subtitle:
             'This is an example of projects, comming soon you look real project here.',
     },
     {
-        imgUrl: '/project-test.jpeg',
+        imgUrl: '/project-test.svg',
         title: 'Example 2 for project section',
         subtitle:
             'This is an example of projects, comming soon you look real project here.',
     },
     {
-        imgUrl: '/project-test.jpeg',
+        imgUrl: '/project-test.svg',
         title: 'Example 3 for project section',
         subtitle:
             'This is an example of projects, comming soon you look real project here.',

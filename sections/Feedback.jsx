@@ -4,6 +4,7 @@ import {motion} from 'framer-motion';
 import { fadeIn, staggerContainer, zoomIn} from '@/utils/motion';
 import { TitleText, TypingText } from '@/components';
 import styles from '../styles/index';
+import Image from 'next/image'
 
 const Feedback = () => (
     <section className={`${styles.paddings} relative z-10`}>
@@ -51,19 +52,23 @@ const Feedback = () => (
                 variants={fadeIn('left', 'tween', .2, 1)}
                 className='relative flex-1 flex justify-center items-center'
             >
-                <img
-                    src='/w2d-feedback.jpeg'
+                <Image
+                    src='/w2d-feedback.svg'
                     alt='feedback bg'
+                    width={1000}
+                    height={100}
                     className='w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]'
                 />
                 <motion.div
                     variants={zoomIn(0.3, 1)}
                     className='lg:block hidden absolute -left-[10%] top-[3%]'
                 >
-                    <img 
-                        src="/w2d-feedback-stamp.png" 
+                    <Image 
+                        src="/w2d-feedback-stamp.svg" 
                         alt="feedback-stamp" 
-                        className='w-[155px] h-[155px] object-contain opacity-85'
+                        width={155}
+                        height={155}
+                        className='object-contain opacity-85'
                     />
                 </motion.div>
             </motion.div>

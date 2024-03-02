@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles/index';
 import { slideIn, staggerContainer, textVariant} from '@/utils/motion';
 import Link from 'next/link';
+import Image from 'next/image'
 
 const Hero = () => (
     <section className={`${styles.yPaddings} sm:pl-16`}>
@@ -38,17 +39,21 @@ const Hero = () => (
                 className='relative w-full md:-mt-[20px] -mt-[12px]'
             >
                 <div className='absolute w-full h-full hero-gradient rounded-t-[140px] z-[0] -top-[30px] opacity-40'/>
-                <img 
-                    src="/hero-image.jpeg" 
-                    alt="cover" 
+                <Image 
+                    src="/hero-image.svg" 
+                    alt="hero-image" 
+                    width={1000}
+                    height={100}
                     className='w-full sm:h-[500px] h-[350px] object-cover rounded-t-[140px] z-10 relative opacity-40 top-7 blur-[2px]'
                 />
                 <Link 
                     href="#works"
                     className='w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10'>
-                    <img 
-                        src="/hero-circle.png" 
-                        alt="circle" 
+                    <Image 
+                        src="/hero-circle.svg" 
+                        alt="hero-circle" 
+                        width={1000}
+                        height={100}
                         className='sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain opacity-45 hover:opacity-70 animate-spin-slow'
                     />
                 </Link>
