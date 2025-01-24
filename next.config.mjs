@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build',
+    distDir: 'docs',
     output: 'export',
     assetPrefix: './',
-    basePath: '/<REPO_NAME>'
+    basePath: '/w2d-web'
 };
 
 export default nextConfig;
